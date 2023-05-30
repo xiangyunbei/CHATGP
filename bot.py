@@ -32,3 +32,5 @@ async def gpt(ctx: commands.Context, *, prompt: str):
 
 
 bot.run(TOKEN)
+[app]  
+requires = ["discord.py-rpc>=1.2.2"]
